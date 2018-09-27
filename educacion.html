@@ -27,16 +27,16 @@
 					<td><b>¿Culminó?</b></td>
 				</tr>
 				<tr height="25px">
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
+					<td>1987</td>
+					<td>Escuela de Aviación</td>
+					<td>Santiago</td>
+					<td>No</td>
 				</tr>
 				<tr height="25px">
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
+					<td>2000</td>
+					<td>Universidad de Chile</td>
+					<td>Santiago</td>
+					<td>Si</td>
 				</tr>
 				<tr height="25px">
 					<td></td>
@@ -48,8 +48,47 @@
 		</article>
 		<article class="">
 			<h3>Agregar Estudios</h3>
-
-
+			<form autocomplete="off" name="Agregar Estudios">
+				<dl>
+					<label for="year"><b>Año:</b></label>
+						<select>
+							<option>2005</option>
+							<option>2006</option>
+							<option>2007</option>
+							<option>2008</option>
+							<option>2009</option>
+							<option>2010</option>
+							<option>2011</option>
+							<option>2012</option>
+							<option>2013</option>
+							<option>2014</option>
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+						</select>
+				</dl>
+				<dl>
+					<label for="instit"><b>Institución:</b></label>
+					<dt>
+						<input type="text" placeholder="Ej: Universidad de Chile" required autofocus>
+					</dt>
+				</dl>
+				<dl>
+					<label for="lugar"><b>Lugar:</b></label>
+					<dt>
+						<textarea name="lugar" rows="2" cols="26"></textarea>
+					</dt>
+				</dl>
+				<dl>
+					<label for="culmino"><b>¿Culminó?</b></label>
+						<input type="radio" name="culmino">Si
+						<input type="radio" name="culmino">No
+				</dl>
+				<dl>
+					<button name="button">Enviar</button>
+				</dl>
+			</form>
 		</article>
 	</section>
 	<footer>
